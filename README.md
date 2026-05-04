@@ -22,18 +22,7 @@ Enterprise-grade project and task management system built for high-performance t
 
 You will need two terminal windows to run both the frontend and backend servers simultaneously.
 
-### 1. Database Setup
-Ensure you have created a Supabase PostgreSQL database. 
 
-Create a `.env` file inside the `/server` directory and add the following template (do not commit your real `.env` file to GitHub!):
-
-```env
-DATABASE_URL="postgresql://postgres.[YOUR_PROJECT_ID]:[PASSWORD]@aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres"
-JWT_SECRET="your_super_secret_jwt_key_here"
-CLIENT_URL="http://localhost:5173"
-NODE_ENV="development"
-PORT=5000
-```
 
 ### 2. Start the Backend Server
 Open your first terminal and navigate to the server folder:
